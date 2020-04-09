@@ -11,7 +11,8 @@ public class Anagram
    
     public static void main(String[] args) 
     { 
-	Scanner sc=new Scanner(System.in);
+	//taking the input
+	    Scanner sc=new Scanner(System.in);
         String Str1 = sc.next();
 		String Str2=sc.next();		
         String out1 = sortString(Str1); 
